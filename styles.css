@@ -1,4 +1,35 @@
+#title {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #1E90FF;
+    padding: 20px;
+    margin: 0;
+}
+
+#movie-list {
+    height: 300px;
+    overflow-y: auto;
+} 
+
+#movie-list p {
+    cursor: pointer;
+    color: blue;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#movie-list p:hover {
+    background-color: lightblue;
+    color: white;
+}
+
 #map {
-    height: 500px;
+    height: 750px;
     width: 100%;
 }
